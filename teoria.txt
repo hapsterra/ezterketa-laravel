@@ -1,0 +1,23 @@
+2)
+App: Bertan karpeta garrantzitsuenak Controllers, Models dira
+	Controller karpetan aplikazioaren kontroladoreak daude bistaren funtzionamendua kontrolatzen duena da
+	Models karpetan datubaseko taulak gordeko ditugu
+Database: Bertan migrazioak etab. daude. 
+	Migrations karpetan taulen eremuak zehaztu ahalko ditugu
+Resources:
+	Bertan bistak izango ditugu, bistak gure aplikazioaren itxura zehztuko dute
+Routes:
+	Bertan erabiliko ditugun rutak egongo dira
+.env fitxategia: fitxategi honetan datubaseko informazioa etab. aurkituko dugu.
+
+3)
+Artisan gure laravel aplikazioa egiteko lagunduko digun tresna da
+Composer php-ko paketeak kudeatzen dituen tresna da
+4)
+Model: gure aplikazioaren taulak izango dira 
+View: gure aplikazioaren itxura zehaztuko du
+Controller: gure aplikazioak izango dituen funtzioak zehaztuko ditu
+Laravel-en honek hirurak erabiltzen dira eta View eta Controller-a erlazionatzen duena Routes fitxategia da.
+5)
+Segurtasuna bermatzen duen tresna da, honekin erasotzaileak ezingo digute oztopatu gure erabiltzeko denboran.
+Cross-Site Request Forgery esan nahi du.
